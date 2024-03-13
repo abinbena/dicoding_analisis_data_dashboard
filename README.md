@@ -2,7 +2,9 @@
 
 ## Setup environment
 ```
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+conda create --name main-env python=3.9
+conda activate main-env
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit 
 ```
 
 ## Run steamlit app
